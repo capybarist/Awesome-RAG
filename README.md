@@ -172,6 +172,12 @@ Chunking strategy is one of the most critical decisions in RAG system design, di
   - **Cons**: High cost, slower processing, requires LLM API access
   - **Best For**: Specialized domains where standard chunking fails
 
+- **[Adaptive Chunking](https://github.com/ekimetrics/adaptive-chunking)**
+  - **Use Case**: Mixed document collections where different documents benefit from different splitting strategies
+  - **Characteristics**: Scores multiple chunking methods using intrinsic metrics and selects the best method per document
+  - **Pros**: More flexible than one-size-fits-all chunking, preserves structure and semantic coherence, supports custom splitters and metrics
+  - **Cons**: Adds evaluation overhead and implementation complexity compared with fixed-size or recursive chunking
+
 **Chunking Best Practices:**
 - **Overlap Strategy**: Use 10-20% overlap to maintain context across boundaries
 - **Size Optimization**: Balance chunk size (larger = more context, smaller = better precision)
