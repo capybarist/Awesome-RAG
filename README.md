@@ -367,6 +367,7 @@ Vector databases are critical components of RAG systems, providing efficient sto
 ### Relational Database Extensions:
 
 - [Pgvector](https://github.com/pgvector/pgvector): An open-source extension for vector similarity search in PostgreSQL.
+- [psql_bm25s](https://github.com/Intelligent-Internet/psql_bm25s): A PostgreSQL extension for BM25-family lexical retrieval, useful for keyword and hybrid retrieval pipelines.
 
 ### Other Database Systems:
 
