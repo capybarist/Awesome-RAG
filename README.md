@@ -42,6 +42,7 @@ RAG addresses a fundamental limitation of LLMs: their static knowledge cutoff an
 - [LangChain RAG Tutorial](https://python.langchain.com/docs/use_cases/question_answering/): Comprehensive guide to building RAG applications
 - [LlamaIndex RAG Tutorial](https://docs.llamaindex.ai/en/stable/getting_started/starter_example/): Getting started with LlamaIndex for RAG
 - [Haystack RAG Pipeline](https://docs.haystack.deepset.ai/docs/retrieval-augmented-generation): Building RAG pipelines with Haystack
+- [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques): A comprehensive open-source collection of advanced Retrieval-Augmented Generation techniques as runnable Jupyter notebooks — chunking strategies, query transformations (HyDE, multi-query), hybrid search, reranking, self-query, parent-child retrieval, graph RAG, multi-hop retrieval, and evaluation
 
 #### Production & Best Practices
 
