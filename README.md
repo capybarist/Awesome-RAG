@@ -60,6 +60,7 @@ RAG systems can be architected using various patterns depending on requirements:
 - **Agentic RAG**: LLM-driven agents that make retrieval decisions dynamically
 - **Self-RAG**: Models that self-reflect on retrieval quality and adjust strategies
 - **Graph RAG**: Leverages knowledge graphs for structured information retrieval
+- **Reasoning-Based RAG**: Uses multi-step LLM reasoning to plan, navigate, and execute retrieval
 
 ## 🎯 Advanced Approaches
 
@@ -82,7 +83,8 @@ RAG implementations vary in complexity, from simple document retrieval to advanc
 - [Multimodal RAG](https://developer.nvidia.com/blog/an-easy-introduction-to-multimodal-retrieval-augmented-generation/): Extends RAG to handle multiple modalities such as text, images, and audio.
 - [VideoRAG](https://arxiv.org/abs/2501.05874): Extends RAG to videos using Large Video Language Models (LVLMs) to retrieve and integrate visual and textual content for multimodal generation.
 - [REFRAG](https://arxiv.org/pdf/2509.01092): Optimizes RAG decoding by compressing retrieved context into embeddings before generation, reducing latency while maintaining output quality.
-- [InstructRAG](https://github.com/weizhepei/InstructRAG): Enhances RAG systems through instruction-based fine-tuning using self-synthesized rationales to improve retrieval and generation quality. 
+- [InstructRAG](https://github.com/weizhepei/InstructRAG): Enhances RAG systems through instruction-based fine-tuning using self-synthesized rationales to improve retrieval and generation quality.
+- [PageIndex](https://github.com/VectifyAI/PageIndex): A vectorless, reasoning-based RAG framework that builds hierarchical document trees and performs retrieval through LLM-guided tree search rather than embeddings and vector similarity. Eliminates chunking and vector databases while providing explainable, context-aware retrieval for complex professional documents.
 
 ## 🧰 Frameworks that Facilitate RAG
 
